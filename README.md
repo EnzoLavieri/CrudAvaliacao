@@ -22,7 +22,7 @@ Ou use a rota padrao `http://localhost:3000/`
 {
   "name": "Aragorn",
   "adventurerName": "Strider",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "strength": 7,
   "defense": 3
 }
@@ -34,7 +34,7 @@ Ou use a rota padrao `http://localhost:3000/`
   "_id": "65a1b2c3d4e5f6g7h8i9j0k",
   "name": "Aragorn",
   "adventurerName": "Strider",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "level": 1,
   "magicItems": [],
   "strength": 7,
@@ -54,7 +54,7 @@ Ou use a rota padrao `http://localhost:3000/`
     "_id": "65a1b2c3d4e5f6g7h8i9j0k",
     "name": "Aragorn",
     "adventurerName": "Strider",
-    "class": "Guerreiro",
+    "class": "Warrior",
     "level": 1,
     "magicItems": [],
     "strength": 7,
@@ -66,7 +66,7 @@ Ou use a rota padrao `http://localhost:3000/`
     "_id": "75b2c3d4e5f6g7h8i9j0k1l",
     "name": "Gandalf",
     "adventurerName": "Mithrandir",
-    "class": "Mago",
+    "class": "Wizard",
     "level": 1,
     "magicItems": ["65a1b2c3d4e5f6g7h8i9j0m"],
     "strength": 2,
@@ -86,13 +86,13 @@ Ou use a rota padrao `http://localhost:3000/`
   "_id": "65a1b2c3d4e5f6g7h8i9j0k",
   "name": "Aragorn",
   "adventurerName": "Strider",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "level": 1,
   "magicItems": [
     {
       "_id": "65a1b2c3d4e5f6g7h8i9j0m",
       "name": "Espada Narsil",
-      "type": "Arma",
+      "type": "Weapon",
       "strength": 5,
       "defense": 0
     }
@@ -120,7 +120,7 @@ Ou use a rota padrao `http://localhost:3000/`
   "_id": "65a1b2c3d4e5f6g7h8i9j0k",
   "name": "Aragorn",
   "adventurerName": "Rei Aragorn",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "level": 1,
   "magicItems": ["65a1b2c3d4e5f6g7h8i9j0m"],
   "strength": 7,
@@ -151,7 +151,7 @@ Ou use a rota padrao `http://localhost:3000/`
 ```json
 {
   "name": "Capa Élfica",
-  "type": "Armadura",
+  "type": "Armor",
   "strength": 0,
   "defense": 4
 }
@@ -162,7 +162,7 @@ Ou use a rota padrao `http://localhost:3000/`
 {
   "_id": "75b2c3d4e5f6g7h8i9j0k1n",
   "name": "Capa Élfica",
-  "type": "Armadura",
+  "type": "Armor",
   "strength": 0,
   "defense": 4
 }
@@ -177,14 +177,14 @@ Ou use a rota padrao `http://localhost:3000/`
   {
     "_id": "65a1b2c3d4e5f6g7h8i9j0m",
     "name": "Espada Narsil",
-    "type": "Arma",
+    "type": "Weapon",
     "strength": 5,
     "defense": 0
   },
   {
     "_id": "75b2c3d4e5f6g7h8i9j0k1n",
     "name": "Capa Élfica",
-    "type": "Armadura",
+    "type": "Armor",
     "strength": 0,
     "defense": 4
   }
@@ -199,7 +199,7 @@ Ou use a rota padrao `http://localhost:3000/`
 {
   "_id": "65a1b2c3d4e5f6g7h8i9j0m",
   "name": "Espada Narsil",
-  "type": "Arma",
+  "type": "Weapon",
   "strength": 5,
   "defense": 0
 }
@@ -236,20 +236,20 @@ Ou use a rota padrao `http://localhost:3000/`
   "_id": "65a1b2c3d4e5f6g7h8i9j0k",
   "name": "Aragorn",
   "adventurerName": "Rei Aragorn",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "level": 1,
   "magicItems": [
     {
       "_id": "65a1b2c3d4e5f6g7h8i9j0m",
       "name": "Espada Narsil",
-      "type": "Arma",
+      "type": "Weapon",
       "strength": 5,
       "defense": 0
     },
     {
       "_id": "75b2c3d4e5f6g7h8i9j0k1n",
       "name": "Capa Élfica",
-      "type": "Armadura",
+      "type": "Armor",
       "strength": 0,
       "defense": 4
     }
@@ -270,14 +270,14 @@ Ou use a rota padrao `http://localhost:3000/`
   {
     "_id": "65a1b2c3d4e5f6g7h8i9j0m",
     "name": "Espada Narsil",
-    "type": "Arma",
+    "type": "Weapon",
     "strength": 5,
     "defense": 0
   },
   {
     "_id": "75b2c3d4e5f6g7h8i9j0k1n",
     "name": "Capa Élfica",
-    "type": "Armadura",
+    "type": "Armor",
     "strength": 0,
     "defense": 4
   }
@@ -293,13 +293,13 @@ Ou use a rota padrao `http://localhost:3000/`
   "_id": "65a1b2c3d4e5f6g7h8i9j0k",
   "name": "Aragorn",
   "adventurerName": "Rei Aragorn",
-  "class": "Guerreiro",
+  "class": "Warrior",
   "level": 1,
   "magicItems": [
     {
       "_id": "65a1b2c3d4e5f6g7h8i9j0m",
       "name": "Espada Narsil",
-      "type": "Arma",
+      "type": "Weapon",
       "strength": 5,
       "defense": 0
     }
@@ -319,7 +319,7 @@ Ou use a rota padrao `http://localhost:3000/`
 {
   "_id": "85c3d4e5f6g7h8i9j0k1l2m",
   "name": "Amuleto de Lorien",
-  "type": "Amuleto",
+  "type": "Amulet",
   "strength": 2,
   "defense": 2
 }
@@ -340,7 +340,7 @@ null
 {
   "name": "Frodo",
   "adventurerName": "Portador do Anel",
-  "class": "Ladino",
+  "class": "Rogue",
   "strength": 6,
   "defense": 5
 }
@@ -376,5 +376,5 @@ null
 
 ---
 
-> Este documento cobre as operações completas da API, incluindo regras de negócio, manipulação de relacionamentos e exemplos de erros.
+> Este documento cobre as operações completas da API, incluindo regras de negócio, manipulação de relacionamentos e exemplos de erros. Ha alguns pequenos bugs/features,tipo, no mongo, ele retorna apenas o id do item na array de magicItems, mas no Swagger ele traz tudo certinho; outro bug é que ele esta retornando o id do parsonagem duplicado, mas no mongo esta certinho, enfim, programacao no seu auge ¯\_(ツ)_/¯
 
