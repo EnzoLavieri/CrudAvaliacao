@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
-import { Character, CharacterDocument } from './personagem.entity';
+import { Character, CharacterDocument } from './character.entity';
 import { CreateCharacterDto } from './dto/create-personagem.dto';
 import { UpdateCharacterDto } from './dto/update-personagem.dto';
 import { AddItemDto } from './dto/add-item.dto';
@@ -85,7 +85,7 @@ export class CharactersService {
       );
 
       if (hasAmulet) {
-        throw new BadRequestException('O personagem já possui um amuleto');
+        throw new BadRequestException('The character already has an amulet');
       }
     }
 

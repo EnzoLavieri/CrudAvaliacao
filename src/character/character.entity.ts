@@ -5,11 +5,11 @@ import { MagicItem } from '../magic-item/magic-item.entity';
 export type CharacterDocument = Character & Document;
 
 export enum CharacterClass {
-  GUERREIRO = 'Guerreiro',
-  MAGO = 'Mago',
-  ARQUEIRO = 'Arqueiro',
-  LADINO = 'Ladino',
-  BARDO = 'Bardo',
+  WARRIOR = 'Warrior',
+  WIZARD = 'Wizard',
+  ARCHER = 'Archer',
+  ROGUE = 'Rogue',
+  BARD = 'Bard',
 }
 
 @Schema()

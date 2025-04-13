@@ -3,7 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { MagicItemsController } from './magic-item.controller';
 import { MagicItemsService } from './magic-item.service';
 import { MagicItem, MagicItemSchema } from './magic-item.entity';
-import { CharactersModule } from '../character/personagem.module';
+import { CharactersModule } from '../character/character.module';
 
 @Module({
   imports: [

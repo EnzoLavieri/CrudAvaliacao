@@ -36,8 +36,7 @@ MagicItemSchema.pre<MagicItem>('validate', function (next) {
   }
 
   if (this.strength === 0 && this.defense === 0) {
-    throw new Error('O item mágico não pode ter força e defesa zerados');
+    throw new Error('The magic item cannot have zero strength and defense');
   }
-
   next();
 });

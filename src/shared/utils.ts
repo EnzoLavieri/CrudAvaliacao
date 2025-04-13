@@ -14,6 +14,6 @@ export class StrengthDefenseSumValidator
   }
 
   defaultMessage(args: ValidationArguments) {
-    return 'A soma de força e defesa deve ser exatamente 10';
+    return 'The sum of strength and defense must be exactly 10';
   }
 }

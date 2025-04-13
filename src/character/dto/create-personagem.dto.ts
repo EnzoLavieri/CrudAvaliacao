@@ -7,7 +7,7 @@ import {
   Min,
   Validate,
 } from 'class-validator';
-import { CharacterClass } from '../personagem.entity';
+import { CharacterClass } from '../character.entity';
 import { StrengthDefenseSumValidator } from '../../shared/utils';
 
 export class CreateCharacterDto {

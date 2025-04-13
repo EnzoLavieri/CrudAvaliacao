@@ -8,7 +8,7 @@ import {
   Delete,
   Query,
 } from '@nestjs/common';
-import { CharactersService } from './personagem.service';
+import { CharactersService } from './character.service';
 import { CreateCharacterDto } from './dto/create-personagem.dto';
 import { UpdateCharacterDto } from './dto/update-personagem.dto';
 import { AddItemDto } from './dto/add-item.dto';
@@ -63,7 +63,7 @@ export class CharactersController {
     return this.charactersService.removeMagicItem(characterId, itemId);
   }
 
-  @Get(':id/amuleto')
+  @Get(':id/amulet')
   findCharacterAmulet(@Param('id') id: string) {
     return this.charactersService.findCharacterAmulet(id);
   }

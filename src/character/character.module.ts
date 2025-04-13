@@ -1,8 +1,8 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { CharactersController } from './personagem.controller';
-import { CharactersService } from './personagem.service';
-import { Character, CharacterSchema } from './personagem.entity';
+import { CharactersController } from './character.controller';
+import { CharactersService } from './character.service';
+import { Character, CharacterSchema } from './character.entity';
 import { MagicItemsModule } from '../magic-item/magic-item.module';
 import { MagicItem, MagicItemSchema } from 'src/magic-item/magic-item.entity';
 
