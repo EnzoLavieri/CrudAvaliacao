@@ -4,9 +4,9 @@ import { Document } from 'mongoose';
 export type MagicItemDocument = MagicItem & Document;
 
 export enum MagicItemType {
-  ARMA = 'Arma',
-  ARMADURA = 'Armadura',
-  AMULETO = 'Amuleto',
+  WEAPON = 'Weapon',
+  ARMOR = 'Armor',
+  AMULET = 'Amulet',
 }
 
 @Schema()
@@ -27,11 +27,11 @@ export class MagicItem {
 export const MagicItemSchema = SchemaFactory.createForClass(MagicItem);
 
 MagicItemSchema.pre<MagicItem>('validate', function (next) {
-  if (this.type === MagicItemType.ARMA && this.defense !== 0) {
+  if (this.type === MagicItemType.WEAPON && this.defense !== 0) {
     this.defense = 0;
   }
 
-  if (this.type === MagicItemType.ARMADURA && this.strength !== 0) {
+  if (this.type === MagicItemType.ARMOR && this.strength !== 0) {
     this.strength = 0;
   }
 

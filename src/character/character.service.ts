@@ -77,11 +77,11 @@ export class CharactersService {
       );
     }
 
-    if (magicItem.type === MagicItemType.AMULETO) {
+    if (magicItem.type === MagicItemType.AMULET) {
       const hasAmulet = character.magicItems.some((item) =>
         item instanceof Types.ObjectId
           ? false
-          : item.type === MagicItemType.AMULETO,
+          : item.type === MagicItemType.AMULET,
       );
 
       if (hasAmulet) {
@@ -157,7 +157,7 @@ export class CharactersService {
     }
 
     const amulet = character.magicItems.find(
-      (item) => item.type === MagicItemType.AMULETO,
+      (item) => item.type === MagicItemType.AMULET,
     );
     return amulet || null;
   }
